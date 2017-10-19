@@ -1,0 +1,13 @@
+ #!/bin/bash
+ T1="pirulo"
+ T2="pirulon"
+ if [ "$T1" = "$T2" ]; then
+ echo expresión evaluada como verdadera
+ else
+ echo expresión evaluada como falsa
+ fi
+ if [ "$T1" != "$T2" ]; then
+ echo expresión evaluada como verdadera
+ else
+ echo expresión evaluada como falsa
+ fi
